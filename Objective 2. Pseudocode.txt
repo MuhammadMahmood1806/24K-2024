@@ -1,0 +1,39 @@
+Objective 2. Pseudocode
+Task 2: Take three variables as input and add them without using the + operator
+
+1 START
+2 
+3 // Input/Output
+4 INPUT number1
+5 INPUT number2
+6 INPUT number3
+7
+8 // Variables and Initialization
+9 SET Sum to 0
+10 
+11 // Process
+12 SET Sum to -1*(-number1-number2-number3)
+13
+14 END
+
+Task 3: Create a small calculator which only does ‘+’ or ‘-’ Operations.
+
+1 START
+2
+3 // Input/Output
+4 INPUT number1
+5 INPUT number2
+6 INPUT operator
+7
+8 // Variables and Initialization
+9 SET Sum to 0
+10
+11 //Conditional statements
+12 IF operator = “+” THEN
+13	SET Sum to number1 + number2
+14 ELSE IF operator = “-” THEN
+15	SET Sum to number1 - number2
+16 ELSE
+17 	PRINT “Enter valid operator”
+17 PRINT Sum
+18 END

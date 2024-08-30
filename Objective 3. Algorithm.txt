@@ -1,0 +1,30 @@
+Objective 3. Algorithm
+Task 1: Implement an algorithm for determining if an Nth is a divisor of an n Number (i.e. 2 is a divisor of 6). If so, determine if it’s an even number or odd number as well.
+
+1.Ask user for N
+2.Ask user for n
+3.Check if n%N = 0
+4.If n%N = 0
+5.Display “N is a divisor of n”
+	a.if N%2 = 0
+		i.Display “N is even”
+	b.Else
+		i.Display “N is odd”
+6.IF n%N is not 0
+7.Display  “N is not a divisor of n”
+
+Task 3: Implement an algorithm for making a simple calculator with all the operators (+,-,*,/,%)
+
+1.Ask user for num1
+2.Ask user for operator (+,-,*,/,%)
+3.Ask user for num2
+4.If operator = +
+	a.Display num1+num2
+5.If operator = -
+	a.Display num1-num2
+6.If operator = *
+	a.Display num1*num2
+7.If operator = /
+	a.Display num1/num2
+8.If operator = %
+	a.Display num1%num2
